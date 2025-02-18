@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <Header />
-      <Fetchitem />
       {!fetchStatus.currentlyFetching ? <Outlet /> : <LoadingSpinner />}
       <Footer />
     </>
