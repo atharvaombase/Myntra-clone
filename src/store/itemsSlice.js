@@ -123,7 +123,7 @@ const items = [
 
 const itemsSlice = createSlice({
   name: "items",
-  initialState: [items],
+  initialState: items,
   reducers: {
     addInitialItems: (state, action) => {
       return action.payload;
